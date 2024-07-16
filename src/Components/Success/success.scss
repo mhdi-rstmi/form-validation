@@ -1,0 +1,42 @@
+.icon {
+
+    display: flex;
+    align-items: flex-end;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    h1 {
+        color: #fff;
+        font-family: Cursive;
+    }
+
+
+    .tick-icon {
+        width: 130px;
+        height: 130px;
+        color: #03e9f4;
+
+
+        animation: tick-anim 1.5s forwards;
+
+
+        @keyframes tick-anim {
+            0% {
+                opacity: 0;
+                transform: scale(0.2);
+            }
+
+            50% {
+                opacity: 1;
+                transform: scale(1.2);
+            }
+
+            100% {
+                opacity: 1;
+                transform: scale(1);
+            }
+        }
+    }
+}
