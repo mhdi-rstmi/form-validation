@@ -1,5 +1,4 @@
 {
-  "homepage": "https://mhdi-rostami.github.io/Form-Validation",
   "name": "my-form",
   "version": "0.1.0",
   "private": true,
@@ -15,8 +14,6 @@
     "yup": "^1.2.0"
   },
   "scripts": {
-    "predeploy": "react-scripts build",
-    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
